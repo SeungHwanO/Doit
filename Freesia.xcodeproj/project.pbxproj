@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC17F3D62A94FCD400B5C513 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17F3D52A94FCD400B5C513 /* MainTabView.swift */; };
+		FC17F3D82A94FEBE00B5C513 /* DoitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17F3D72A94FEBE00B5C513 /* DoitView.swift */; };
+		FC17F3DA2A95074B00B5C513 /* EmpeyActionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17F3D92A95074B00B5C513 /* EmpeyActionStyle.swift */; };
+		FC17F3DE2A96342800B5C513 /* DoitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17F3DD2A96342800B5C513 /* DoitListView.swift */; };
+		FC90CB832A971B3100DEFBC2 /* DoitPlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC90CB822A971B3100DEFBC2 /* DoitPlusView.swift */; };
+		FC90CBA52A9866E800DEFBC2 /* GenderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC90CBA42A9866E800DEFBC2 /* GenderStyle.swift */; };
+		FC90CBAA2A986CBD00DEFBC2 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC90CBA92A986CBD00DEFBC2 /* UserInfoView.swift */; };
+		FC90CBAC2A9C42FD00DEFBC2 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC90CBAB2A9C42FD00DEFBC2 /* ObservableObject.swift */; };
+		FC9E28712A94E70300C37716 /* FreesiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E28702A94E70300C37716 /* FreesiaApp.swift */; };
+		FC9E28732A94E70300C37716 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E28722A94E70300C37716 /* ContentView.swift */; };
+		FC9E28752A94E70400C37716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9E28742A94E70400C37716 /* Assets.xcassets */; };
+		FC9E28782A94E70400C37716 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9E28772A94E70400C37716 /* Preview Assets.xcassets */; };
+		FC9E28882A94E96100C37716 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E28872A94E96100C37716 /* AuthView.swift */; };
+		FCE4128B2A9D8A33008EEB63 /* DoitRecodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE4128A2A9D8A33008EEB63 /* DoitRecodeView.swift */; };
+		FCE4128D2A9D934E008EEB63 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE4128C2A9D934E008EEB63 /* ImagePicker.swift */; };
+		FCE4128F2A9D956A008EEB63 /* ImagePickerGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE4128E2A9D956A008EEB63 /* ImagePickerGround.swift */; };
+		FCE412922A9DAE10008EEB63 /* DoitTogetherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE412912A9DAE10008EEB63 /* DoitTogetherView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC17F3D52A94FCD400B5C513 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		FC17F3D72A94FEBE00B5C513 /* DoitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoitView.swift; sourceTree = "<group>"; };
+		FC17F3D92A95074B00B5C513 /* EmpeyActionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpeyActionStyle.swift; sourceTree = "<group>"; };
+		FC17F3DD2A96342800B5C513 /* DoitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoitListView.swift; sourceTree = "<group>"; };
+		FC90CB822A971B3100DEFBC2 /* DoitPlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoitPlusView.swift; sourceTree = "<group>"; };
+		FC90CBA42A9866E800DEFBC2 /* GenderStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderStyle.swift; sourceTree = "<group>"; };
+		FC90CBA92A986CBD00DEFBC2 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		FC90CBAB2A9C42FD00DEFBC2 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		FC9E286D2A94E70300C37716 /* Freesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freesia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9E28702A94E70300C37716 /* FreesiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreesiaApp.swift; sourceTree = "<group>"; };
+		FC9E28722A94E70300C37716 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC9E28742A94E70400C37716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC9E28772A94E70400C37716 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC9E28872A94E96100C37716 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		FCE4128A2A9D8A33008EEB63 /* DoitRecodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoitRecodeView.swift; sourceTree = "<group>"; };
+		FCE4128C2A9D934E008EEB63 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		FCE4128E2A9D956A008EEB63 /* ImagePickerGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerGround.swift; sourceTree = "<group>"; };
+		FCE412912A9DAE10008EEB63 /* DoitTogetherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoitTogetherView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC9E286A2A94E70300C37716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC90CBA62A986C8900DEFBC2 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				FC90CBA92A986CBD00DEFBC2 /* UserInfoView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		FC9E28642A94E70300C37716 = {
+			isa = PBXGroup;
+			children = (
+				FC9E286F2A94E70300C37716 /* Freesia */,
+				FC9E286E2A94E70300C37716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC9E286E2A94E70300C37716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E286D2A94E70300C37716 /* Freesia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC9E286F2A94E70300C37716 /* Freesia */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E28832A94E86E00C37716 /* App */,
+				FC9E28822A94E83D00C37716 /* Core */,
+				FC9E28812A94E83900C37716 /* Extensions */,
+				FC9E28802A94E80400C37716 /* Model */,
+				FC9E287F2A94E7EF00C37716 /* Services */,
+				FC9E28722A94E70300C37716 /* ContentView.swift */,
+				FC9E28742A94E70400C37716 /* Assets.xcassets */,
+				FC9E28762A94E70400C37716 /* Preview Content */,
+				FC9E287E2A94E7E800C37716 /* PlayGround */,
+			);
+			path = Freesia;
+			sourceTree = "<group>";
+		};
+		FC9E28762A94E70400C37716 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E28772A94E70400C37716 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC9E287E2A94E7E800C37716 /* PlayGround */ = {
+			isa = PBXGroup;
+			children = (
+				FCE4128E2A9D956A008EEB63 /* ImagePickerGround.swift */,
+			);
+			path = PlayGround;
+			sourceTree = "<group>";
+		};
+		FC9E287F2A94E7EF00C37716 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FC9E28802A94E80400C37716 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC9E28812A94E83900C37716 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FC17F3D92A95074B00B5C513 /* EmpeyActionStyle.swift */,
+				FC90CBA42A9866E800DEFBC2 /* GenderStyle.swift */,
+				FC90CBAB2A9C42FD00DEFBC2 /* ObservableObject.swift */,
+				FCE4128C2A9D934E008EEB63 /* ImagePicker.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FC9E28822A94E83D00C37716 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FCE412902A9DADC7008EEB63 /* Together */,
+				FC9E28862A94E8F900C37716 /* Doit */,
+				FC90CBA62A986C8900DEFBC2 /* User */,
+				FC9E28842A94E8A000C37716 /* TabBar */,
+				FC9E28852A94E8C800C37716 /* Auth */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FC9E28832A94E86E00C37716 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E28702A94E70300C37716 /* FreesiaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FC9E28842A94E8A000C37716 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FC17F3D52A94FCD400B5C513 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		FC9E28852A94E8C800C37716 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E28872A94E96100C37716 /* AuthView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FC9E28862A94E8F900C37716 /* Doit */ = {
+			isa = PBXGroup;
+			children = (
+				FC17F3D72A94FEBE00B5C513 /* DoitView.swift */,
+				FC17F3DD2A96342800B5C513 /* DoitListView.swift */,
+				FC90CB822A971B3100DEFBC2 /* DoitPlusView.swift */,
+				FCE4128A2A9D8A33008EEB63 /* DoitRecodeView.swift */,
+			);
+			path = Doit;
+			sourceTree = "<group>";
+		};
+		FCE412902A9DADC7008EEB63 /* Together */ = {
+			isa = PBXGroup;
+			children = (
+				FCE412912A9DAE10008EEB63 /* DoitTogetherView.swift */,
+			);
+			path = Together;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC9E286C2A94E70300C37716 /* Freesia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9E287B2A94E70400C37716 /* Build configuration list for PBXNativeTarget "Freesia" */;
+			buildPhases = (
+				FC9E28692A94E70300C37716 /* Sources */,
+				FC9E286A2A94E70300C37716 /* Frameworks */,
+				FC9E286B2A94E70300C37716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Freesia;
+			productName = Freesia;
+			productReference = FC9E286D2A94E70300C37716 /* Freesia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC9E28652A94E70300C37716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FC9E286C2A94E70300C37716 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = FC9E28682A94E70300C37716 /* Build configuration list for PBXProject "Freesia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC9E28642A94E70300C37716;
+			productRefGroup = FC9E286E2A94E70300C37716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC9E286C2A94E70300C37716 /* Freesia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC9E286B2A94E70300C37716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9E28782A94E70400C37716 /* Preview Assets.xcassets in Resources */,
+				FC9E28752A94E70400C37716 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC9E28692A94E70300C37716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE4128D2A9D934E008EEB63 /* ImagePicker.swift in Sources */,
+				FCE412922A9DAE10008EEB63 /* DoitTogetherView.swift in Sources */,
+				FCE4128B2A9D8A33008EEB63 /* DoitRecodeView.swift in Sources */,
+				FC17F3DE2A96342800B5C513 /* DoitListView.swift in Sources */,
+				FC90CBA52A9866E800DEFBC2 /* GenderStyle.swift in Sources */,
+				FC17F3DA2A95074B00B5C513 /* EmpeyActionStyle.swift in Sources */,
+				FC9E28732A94E70300C37716 /* ContentView.swift in Sources */,
+				FC90CBAC2A9C42FD00DEFBC2 /* ObservableObject.swift in Sources */,
+				FC17F3D82A94FEBE00B5C513 /* DoitView.swift in Sources */,
+				FC90CB832A971B3100DEFBC2 /* DoitPlusView.swift in Sources */,
+				FC9E28712A94E70300C37716 /* FreesiaApp.swift in Sources */,
+				FCE4128F2A9D956A008EEB63 /* ImagePickerGround.swift in Sources */,
+				FC9E28882A94E96100C37716 /* AuthView.swift in Sources */,
+				FC17F3D62A94FCD400B5C513 /* MainTabView.swift in Sources */,
+				FC90CBAA2A986CBD00DEFBC2 /* UserInfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC9E28792A94E70400C37716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC9E287A2A94E70400C37716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC9E287C2A94E70400C37716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Freesia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwani.Freesia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC9E287D2A94E70400C37716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Freesia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwani.Freesia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC9E28682A94E70300C37716 /* Build configuration list for PBXProject "Freesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9E28792A94E70400C37716 /* Debug */,
+				FC9E287A2A94E70400C37716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9E287B2A94E70400C37716 /* Build configuration list for PBXNativeTarget "Freesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9E287C2A94E70400C37716 /* Debug */,
+				FC9E287D2A94E70400C37716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC9E28652A94E70300C37716 /* Project object */;
+}
