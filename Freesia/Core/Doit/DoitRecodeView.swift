@@ -26,19 +26,29 @@ struct DoitRecodeView: View {
                 
                 Text("사진 올리기")
                 
-                Button (action: {self.openPhoto = true}) {
-                    Text("IMG")
-                        .fontWeight(.semibold)
-                        .foregroundColor(.gray)
+                HStack {
+                    
+                    Button (action: {self.openPhoto = true}) {
+                        Text("IMG")
+                            .fontWeight(.semibold)
+                            .foregroundColor(.gray)
+                            .frame(maxWidth: 80, maxHeight: 80)
+        //                    .background(.black)
+                            .overlay(RoundedRectangle(cornerRadius: 5)
+                                .stroke(.gray, lineWidth: 2)
+                            )
+                    }
+                    Image(uiImage: self.image)
+                        .resizable()
+                        .scaledToFit()
+                        .background(.green)
                         .frame(maxWidth: 80, maxHeight: 80)
-    //                    .background(.black)
-                        .overlay(RoundedRectangle(cornerRadius: 5)
-                            .stroke(.gray, lineWidth: 2)
-                        )
+                        
+                    
+                    
                 }
                 
-                Image(uiImage: self.image)
-                
+                    
                 Button {
                     
                 } label: {

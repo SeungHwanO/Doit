@@ -26,7 +26,7 @@ struct MainTabView: View {
         
         
         TabView(selection:$selection) {
-            Text("함께보기")
+            DoitTogetherView()
                 .tabItem {
                     Image(systemName: "person.2")
                     Text("함께보기")
