@@ -77,10 +77,11 @@ struct DoitPlusView: View {
 
                                 }
                             }
-                            .background((Color(red: 255/255, green: 160/225, blue: 48/225)))
-                            .font(.callout)
-                            .foregroundColor(.black)
-                            .cornerRadius(5)
+                            .foregroundColor(.white)
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 2)
+                            .background(Color(red: 242/255 , green: 187/255, blue: 22/255))
+                            .cornerRadius(10)
                         }
                         .frame(maxWidth: .infinity, alignment: .leading)
 
@@ -116,22 +117,23 @@ struct DoitPlusView: View {
 
                                 }
                             }
-                            .background((Color(red: 255/255, green: 160/225, blue: 48/225)))
-                            .font(.callout)
-                            .foregroundColor(.black)
-                            .cornerRadius(5)
+                            .foregroundColor(.white)
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 2)
+                            .background(Color(red: 242/255 , green: 187/255, blue: 22/255))
+                            .cornerRadius(10)
                         }
                         .frame(maxWidth: .infinity, alignment: .leading)
 
                     }
-                    
+                    .font(.footnote)
                     //작성완료
                     Spacer()
                     NavigationLink {
                         DoitListView()
                     } label: {
-                        Text("작성 완료")
-                            .padding(5)
+                        Text("확인")
+                            .padding(7)
                             .frame(maxWidth: .infinity)
                             .background(Color(red: 242/255 , green: 187/255, blue: 22/255))
                             .cornerRadius(5)
@@ -149,8 +151,11 @@ struct DoitPlusView: View {
             }
             
         }
+        .font(.footnote)
+
     }
 }
+
 
 struct DoitPlusView_Previews: PreviewProvider {
     static var previews: some View {

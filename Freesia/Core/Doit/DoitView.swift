@@ -51,7 +51,7 @@ struct DoitView: View {
                             
                             HStack {
                                 
-                                Text("# 운동")
+                                Text("운동")
                                     .font(.footnote)
                                     .foregroundColor(.white)
                                     .padding(.horizontal, 10)
@@ -93,45 +93,83 @@ struct DoitView: View {
                     Spacer()
 
                     ScrollView(showsIndicators: false) {
-                        VStack(spacing: 0) {
-                            
+                        
+                        
+                        
+                        
+                        VStack {
                             VStack(spacing: 0) {
-                                Group {
-                                    Text("Day 7")
-                                        .font(.system(size: 15))
-                                        .fontWeight(.semibold)
-                                        .padding(.bottom,0)
-                                        .foregroundColor(Color(red: 227/255 , green: 171/255, blue: 54/255))
-                                    Text("2023.08.30")
-                                        .font(.footnote)
-                                        .fontWeight(.regular)
-                                        .padding(.bottom,5)
-                                        .foregroundColor(Color(red: 227/255 , green: 171/255, blue: 54/255))
-                                        
-                                    Image("sample")
-                                        .resizable()
-                                        .frame(maxWidth: .infinity)
-                                        .aspectRatio(contentMode: .fit)
-                                        .padding(.bottom,5)
+                                
+                                //post body
+                                Image("sample")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .cornerRadius(5)
+                                    .padding(.bottom, 10)
                                     
-                                    Text("더운 날씨에도 1시간 조깅하기 완료!!🔥")
-                                        .font(.footnote)
-                                        .fontWeight(.light)
-                                        .padding(.bottom,5)
-                                    HStack {
-                                        Text("대단해요 10")
-                                        Text("멋쪄요 2")
-                                        Text("같이해요 5")
+                                
+                                
+                                
+                                HStack {
+                                    Text("화이팅🔥 • 10")
+                                        .foregroundColor(.white)
+                                        .padding(.horizontal, 10)
+                                        .padding(.vertical, 2)
+                                        .background(Color(red: 242/255 , green: 187/255, blue: 22/255))
+                                    .cornerRadius(10)
+                                    
+                                    Text("대단해요👍🏻 • 10")
+                                        .foregroundColor(Color(red: 242/255 , green: 187/255, blue: 22/255))
+                                        .padding(.horizontal, 10)
+                                        .padding(.vertical, 2)
+                                        .background()
+                                        .overlay(
+                                                RoundedRectangle(cornerRadius: 10)
+                                                    .stroke(Color(red: 242/255 , green: 187/255, blue: 22/255), lineWidth: 2)
+                                            )
+                                    
+                                        .cornerRadius(10)
+                                    
+                                    Spacer()
+                                    
+                                    Text("운동")
+                                        .foregroundColor(.white)
+                                        .padding(.horizontal, 10)
+                                        .padding(.vertical, 2)
+                                        .background(Color(red: 242/255 , green: 187/255, blue: 22/255))
+                                    .cornerRadius(10)
+                                }
+                                .font(.footnote)
+                                VStack {
+                                    HStack{
+                                        Text("Day8")
+                                            .fontWeight(.bold)
+                                        
+                                        Text("하루 한시간 운동하기")
+                                        
+                                        Spacer()
                                         
                                     }
-                                    .font(.system(size: 11))
-                                    .fontWeight(.light)
-                                    .foregroundColor(Color(red: 255/255, green: 160/225, blue: 48/225))
+                                    Group{
+                                        Text("테스트 텍스트입니다.🙌🏻")
+                                            .fontWeight(.thin)
+                                        Text("2023.8.29")
+                                            .fontWeight(.thin)
+                                            .foregroundColor(.gray)
+                                    }
+                                    .frame(maxWidth: .infinity, alignment: .leading)
                                 }
-                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .font(.footnote)
+                                .padding(.vertical, 5)
+
+                                
+                                
+
+                                
                             }
-                            .padding(10)
+                            .padding(5)
                             
+
                         }
                         .frame(maxWidth: .infinity)
                         .background(Color.white)
